@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-dark-main {
+  background-color: rgba(255,255,255,1);
+  /*background-color: oklch(14.7% 0.004 49.25);*/
+}
+
+.bg-green{
+    background-color: #609839;
+  color: #fff;
+}
+.hover\:bg-green\/20:hover{
+    background-color: #e0efce;
+  color: #609839;
+}
+.border-green {
+  border: solid 1px #609839;
+}
